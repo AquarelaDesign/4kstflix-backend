@@ -15,7 +15,7 @@ router.get("/", getCurrentUser, function (req, res) {
   });
 });
 
-router.put(
+router.post(
   "/login",
   validateLogin,
   handleValidationErrors,
